@@ -49,6 +49,10 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 ## Usage
   * Run seed file in MySQL Workbench or an equivalent if you would like starting data.
   * Run node server.js in your terminal to start the application.
+  
+  ## View:Heroku 
+  
+  ![image](https://user-images.githubusercontent.com/49447293/99757655-dd9a6200-2abd-11eb-992a-bc8c88f87813.png)
 
 ## Contributors
   Roxhers Bozali
