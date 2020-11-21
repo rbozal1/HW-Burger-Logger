@@ -1,4 +1,8 @@
-insert into burgers(burger_name) values ('Cheese Burger');
-insert into burgers(burger_name) values ('Hamburger');
-insert into burgers(burger_name) values ('Bacon Cheese Burger');
-insert into burgers(burger_name) values ('Chicken Sandwich');
+USE burgers_db;
+
+INSERT INTO burgers(burger_name)
+VALUES
+    ("Big Mac"),
+    ("Baconator"),
+    ("Whopper"),
+    ("Mom's Homemade Burger");
