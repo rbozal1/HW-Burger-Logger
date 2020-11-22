@@ -19,10 +19,15 @@
       {{#each burgers}}
       {{#unless this.devoured}}
 
-      <form action="/burgers/update/{{this.id}}?_method=PUT" method="POST">
+      {{!-- <form action="/burgers/update/{{this.id}}?" method="POST">
         <div class="form-group">
-          <button type="submit" class="btn btn-danger" name="devoured" value="1">{{burger_name}}</button>
+          <button type="submit" class="btn btn-danger" name="devoured" value="1">{{burger_name}} onsubmit</button>
         </div>
+      </form> --}}
+
+      <form class="devour-form">
+          <input input type="hidden" class="burger_id" type="text" value={{this.id}}><br>
+          <button type="submit" class="btn btn-danger">{{burger_name}}</button>
       </form>
 
       {{/unless}}
